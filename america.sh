@@ -1,18 +1,29 @@
-# curl http://www.gutenberg.org/cache/epub/13333/pg13333.txt | cat | grep -e 'free' | cut -d ' ' -f 2-4
+# DEMOCRACY IN AMERICA
 
-read -p "Do you like America? Does America like you? (y/n) " yn
+# download Alexis de Tocqueville's "Democracy in America"
+# from Project Giutenberg, remove front/end matter
+# and save as text file
+curl http://www.gutenberg.org/cache/epub/13333/pg13333.txt | tail -9000 | head -7500 > democracy_in_america.txt
 
-case $yn in
-[Yy]*) search='free';;
-[Nn]*) search='slave';;
-*) search='uncertain';;
-esac
+# print the title to an output text file
+printf "\n\nDEMOCRACY IN AMERICA\n\n" > output.txt
 
-printf "\n\n";
-printf $search | tr a-z A-Z;
-printf "\n\n";
+# search the text file for the word "slave" and run some simple transformations
+cat < democracy_in_america.txt | grep -e 'free' | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',." >> output.txt
 
-# curl http://www.gutenberg.org/cache/epub/13333/pg13333.txt | cat | tail -9000 | head -7500 | grep -e $search | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',."
-curl http://www.gutenberg.org/cache/epub/13333/pg13333.txt | cat | tail -9000 | head -7500 | grep -e $search | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',."
+# new line
+printf "\n" >> output.txt
 
-printf "\n\n";
+cat < democracy_in_america.txt | grep -e 'slave' | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',." >> output.txt
+
+
+printf "\n" >> output.txt
+
+cat < democracy_in_america.txt | grep -e 'uncertain' | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',." >> output.txt
+
+printf "\n" >> output.txt
+
+
+rm democracy_in_america.txt
+mv output.txt democracy_in_america.txt
+cat democracy_in_america.txt
