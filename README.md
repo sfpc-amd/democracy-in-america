@@ -5,7 +5,7 @@ This bash poem (?) will download the entire text source of Alexis de Tocqueville
 
 You can run the script by pasting the following into your terminal:
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/andyinabox/democracy-in-america/master/democracy-in-america.sh)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/sfpc-amd/democracy-in-america/master/democracy-in-america.sh)"
 
 Or view the source above to see what's going on.
 
