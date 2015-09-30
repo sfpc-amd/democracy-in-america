@@ -7,14 +7,20 @@ Example:
 
 ```bash
 $ ./bin/democracy_in_america.sh
-property
-mars and luynes were
-open profession; that as
-is little value now
+democracy
+lift you into aristocracy
+i think that it
+so irresistible a reaction
+i see no symptom
+rather strengthen our democracy
+out which leads to
+naturally not partial to
+his asiatic democracy but
+universal suffrage i detest
 ```
 
 Or, to export to a file:
 
 ```bash
-$ echo "property" | ./bin/democracy_in_america.sh > txt/property.txt
+$ echo "democracy" | ./bin/democracy_in_america.sh > txt/democracy.txt
 ```
