@@ -24,3 +24,5 @@ Or, to export to a file:
 ```bash
 $ echo "democracy" | ./bin/democracy_in_america.sh > txt/democracy.txt
 ```
+
+See more examples on the `txt` directory, each text file is named based on the corresponding string search.
