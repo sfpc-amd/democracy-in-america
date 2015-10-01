@@ -1,7 +1,27 @@
 Democracy in America
 ====================
 
-This script will generate poems from the text _Correspondence & Conversations of Alexis de Tocqueville with Nassau William Senior from 1834 to 1859_ (downloaded from Project Gutenberg). You will be prompted for a search term, which will be used to generate the poem.
+This script will generate poems from the various texts aothored by Alexis de Toqueville (downloaded from Project Gutenberg).
+
+Setup
+-----
+
+First run the script to build your corpus.
+
+```bash
+# ./bin/build_corpus.sh
+```
+
+You will be prompted to choose whether to include three different texts:
+
+ * _Correspondence & Conversations of Alexis de Tocqueville with Nassau William Senior_
+ * _Democracy in America_ Vol 1
+ * _Democracy in America_ Vol 2
+
+Usage
+-----
+
+Now run the parser script and you will be prompted for a search term:
 
 Example:
 
