@@ -23,7 +23,7 @@ Usage
 
 Now run the parser script and you will be prompted for a search term:
 
-Example:
+Example using the search term "democracy":
 
 ```bash
 $ ./bin/democracy_in_america.sh
