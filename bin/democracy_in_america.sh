@@ -1,6 +1,6 @@
 # DEMOCRACY IN AMERICA
 
-SRC="src/democracy_in_america.txt"
+SRC="src/corpus.txt"
 read SEARCH
 
 # run the search

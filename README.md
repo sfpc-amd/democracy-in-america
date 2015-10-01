@@ -1,7 +1,7 @@
 Democracy in America
 ====================
 
-This script will generate poems from the text of Alexis de Tocqueville's [_Democracy in America_](https://en.wikipedia.org/wiki/Democracy_in_America) (downloaded from Project Gutenberg). You will be prompted for a search term, which will be used to generate the poem.
+This script will generate poems from the text _Correspondence & Conversations of Alexis de Tocqueville with Nassau William Senior from 1834 to 1859_ (downloaded from Project Gutenberg). You will be prompted for a search term, which will be used to generate the poem.
 
 Example:
 
