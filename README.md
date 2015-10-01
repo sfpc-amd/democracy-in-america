@@ -9,7 +9,7 @@ Setup
 First run the script to build your corpus.
 
 ```bash
-# ./bin/build_corpus.sh
+$ ./bin/build_corpus.sh
 ```
 
 You will be prompted to choose whether to include three different texts:
