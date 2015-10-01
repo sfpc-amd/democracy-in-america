@@ -1,7 +1,7 @@
 Democracy in America
 ====================
 
-This script will generate poems from the various texts aothored by Alexis de Toqueville (downloaded from Project Gutenberg).
+This script will generate poems from the various texts authored by Alexis de Toqueville (downloaded from Project Gutenberg).
 
 Setup
 -----
