@@ -18,6 +18,8 @@ You will be prompted to choose whether to include three different texts:
  * _Democracy in America_ Vol 1
  * _Democracy in America_ Vol 2
 
+(Currently the poems in the `txt` directory were generated exclusively from _Correspondence & Conversations_)
+
 Usage
 -----
 
