@@ -1,6 +1,8 @@
 Txt Conversations
 ====================
 
+!https://raw.githubusercontent.com/sfpc-amd/txt-conversations/master/txt-conversations-poster.jpg
+
 Turning 19th century snailmail correspondence into poesy.
 
  * [Download booklet for screen (PDF)](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-screen.pdf)
