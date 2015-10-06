@@ -44,9 +44,7 @@ You will be prompted to choose whether to include three different texts:
 
 ### Usage
 
-Now run the parser script and you will be prompted for a search term:
-
-Example using the search term "democracy":
+Now run the parser script and you will be prompted for a search term. Example using the search term "democracy":
 
 ```bash
 $ ./bin/generator.sh
