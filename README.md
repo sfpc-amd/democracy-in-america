@@ -6,7 +6,7 @@ Txt Conversations
 Turning 19th century snailmail correspondence into poesy.
 
  * [Download PDF booklet for screen](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-screen.pdf)
- * [Download booklet for print](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-print.pdf) (assemble using [this method](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko
+ * [Download PDF booklet for print](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-print.pdf) (assemble using [this method](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko
 ))
 
 
