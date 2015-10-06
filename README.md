@@ -1,4 +1,4 @@
-Democracy in America
+Txt Conversations
 ====================
 
 This script will generate poems from the various texts authored by Alexis de Toqueville (downloaded from Project Gutenberg). It uses the following shell command to generate the poems:
@@ -59,3 +59,8 @@ $ echo "democracy" | ./bin/democracy_in_america.sh > txt/democracy.txt
 ```
 
 See more examples on the `txt` directory, each text file is named based on the corresponding string search.
+
+Booklet
+-------
+
+http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko
