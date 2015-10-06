@@ -24,7 +24,7 @@ Which does the following:
 1. Find all lines with the selected search term in them
 2. Break each line into words, and take the second through the fifth word of the line
 3. Lowercase all letters
-4. Remove all additional punctuation  (quotes, underscores, commas, periods).
+4. Remove some additional punctuation (quotes, underscores, commas, periods).
 
 ### Setup
 
