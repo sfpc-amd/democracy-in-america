@@ -49,7 +49,7 @@ Now run the parser script and you will be prompted for a search term:
 Example using the search term "democracy":
 
 ```bash
-$ ./bin/democracy_in_america.sh
+$ ./bin/generator.sh
 democracy
 lift you into aristocracy
 i think that it
@@ -65,7 +65,7 @@ universal suffrage i detest
 Or, to export to a file:
 
 ```bash
-$ echo "democracy" | ./bin/democracy_in_america.sh > txt/democracy.txt
+$ echo "democracy" | ./bin/generator.sh > txt/democracy.txt
 ```
 
 See more examples on the `txt` directory, each text file is named based on the corresponding string search.
