@@ -10,6 +10,12 @@ Turning 19th century snailmail correspondence into poesy.
 ))
 
 
+Potential Future Conversations
+===============================
+
+ * [_Love and Freindship_ by Jane Austen](http://www.gutenberg.org/ebooks/1212)
+ * _Letters of Gertrude Stein and Carl Van Vechen_
+
 Script
 ------
 
