@@ -22,4 +22,10 @@ if echo "$yn4" | grep -iq "^y" ;then
 	cat src/letters_of_john_keats.txt | tail -14050 | head -13600 >> src/corpus.txt
 fi
 
+read -p "Include Stein' (yn) " yn5
+if echo "$yn5" | grep -iq "^y" ;then
+	cat src/gertrude_stein_carl_van_vechten.txt | tail -27300 | head -13600 >> src/corpus.txt
+fi
+
+
 printf "\nDone.\n\n"
