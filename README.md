@@ -1,38 +1,55 @@
-Txt Conversations
+.txt conversations
 ====================
 
-![Poster image](https://raw.githubusercontent.com/sfpc-amd/txt-conversations/master/txt-conversations-poster.jpg)
+Turning 19th century snailmail correspondence into poems.
 
-Turning 19th century snailmail correspondence into poesy.
-
- * [Download PDF booklet for screen](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-screen.pdf)
- * [Download PDF booklet for print](https://github.com/sfpc-amd/txt-conversations/raw/master/txt-conversations-print.pdf) (assemble using [this method](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko
-))
+[Look here](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko) for assembly instructions.
 
 
-Potential Future Conversations
+Editions
+========
+
+ 1. [De Tocqueville & Nassau](#de-tocqueville--nassau)
+ 2. [John Keats](#john-keats)
+ 3. [Mary Wollstonecraft](#mary-wollstonecraft)
+
+De Tocqueville & Nassau
+------------------------------
+
+![Poster image](booklet/de_tocqueville_nassau/de_tocqueville-poster.jpg)
+
+[Screen PDF](booklet/de_tocqueville_nassau/de_tocqueville-booklet-screen.pdf) / [Print PDF](booklet/de_tocqueville_nassau/de_tocqueville-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/13333)
+
+John Keats
+------------------------------
+
+![Poster image](booklet/keats/keats-poster.jpg)
+
+[Screen PDF](booklet/keats/keats-booklet-screen.pdf) / [Print PDF](booklet/keats/keats-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/35698)
+
+Mary Wollstonecraft
+------------------------------
+
+![Poster image](booklet/wollstonecraft/wollstonecraft-poster.jpg)
+
+[Screen PDF](booklet/wollstonecraft/wollstonecraft-booklet-screen.pdf) / [Print PDF](booklet/wollstonecraft/wollstonecraft-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/3529)
+
+
+Instructions
 ===============================
 
- * [_Love and Freindship_ by Jane Austen](http://www.gutenberg.org/ebooks/1212)
- * _Letters of Gertrude Stein and Carl Van Vechen_
+The script
+----------
 
-Script
-------
-
-This script will generate poems from the various texts authored by Alexis de Toqueville (downloaded from Project Gutenberg). It uses the following shell command to generate the poems:
+This whole project is based on a single line. This command will generate poems from whatever text is contained in `corpus.txt`, using `$SEARCH` as the query:
 
 ```bash
-cat < src/corpus.txt | grep -e $SEARCH | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',._\""
+cat < corpus.txt | grep -e $SEARCH | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',._\""
 ```
 
-Which does the following:
 
-1. Find all lines with the selected search term in them
-2. Break each line into words, and take the second through the fifth word of the line
-3. Lowercase all letters
-4. Remove some additional punctuation (quotes, underscores, commas, periods).
-
-### Setup
+Setup
+------
 
 First run the script to build your corpus.
 
@@ -40,17 +57,12 @@ First run the script to build your corpus.
 $ ./bin/build_corpus.sh
 ```
 
-You will be prompted to choose whether to include three different texts:
+You will be prompted to choose whether to include any of the available texts.
 
- * _Correspondence & Conversations of Alexis de Tocqueville with Nassau William Senior from 1834 to 1859, Volume 2_
- * _Democracy in America_ Vol 1
- * _Democracy in America_ Vol 2
+Usage
+-----
 
-(Currently the poems in the `txt` directory were generated exclusively from _Correspondence & Conversations_)
-
-### Usage
-
-Now run the parser script and you will be prompted for a search term. Example using the search term "democracy":
+Now run the parser script and you will be prompted for a search term. Example using the search term "democracy" on the De Tocqueville text:
 
 ```bash
 $ ./bin/generator.sh
