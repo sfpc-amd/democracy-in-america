@@ -1,6 +1,8 @@
 .txt conversations
 ====================
 
+**Note:** This project is no longer maintained here. Head over to https://github.com/andyinabox/txt
+
 Turning 19th century snailmail correspondence into poems.
 
 [Look here](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko) for assembly instructions.
